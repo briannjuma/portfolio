@@ -18,7 +18,7 @@ As a software developer I am indebted to showcase off my skills and previous wor
   
 ## Author
 BRIAN JUMA
-<img src="./images/me.png">
+<img src="./images/me.png" height="100px">
 * Contact me: brian.juma@student.moringaschool.com
 
 ## License
