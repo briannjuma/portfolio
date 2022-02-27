@@ -11,6 +11,7 @@
 body {
   margin: 0% 10%;
   font-family: "Poppins", sans-serif;
+  background-color: darkgrey;
 }
 /* styling below applies to our header*/
 header {
@@ -91,9 +92,41 @@ header .navlinks ul li a:hover {
   }
 }
 /* styling below applies to section one of main*/
-#hero {
+.hero {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+@media screen and (max-width: 500px) {
+  .hero {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.hero .about {
+  width: 50%;
+  font-size: 1vw;
+}
+@media screen and (max-width: 500px) {
+  .hero-content .about {
+    width: 100%;
+    margin-top: 50%;
+  }
+}
+.hero .about h2 {
+  color: #e27d60;
+  font-size: 2.5vw;
+}
+.hero .questions {
+  color: #e27d60;
+  font-size: 2.4vh;
+  margin-top: 2%;
+}
+
 footer {
   position: fixed;
   bottom: 0;
