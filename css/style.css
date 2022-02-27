@@ -96,6 +96,7 @@ header .navlinks ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 5%;
 }
 
 @media screen and (max-width: 500px) {
@@ -112,19 +113,30 @@ header .navlinks ul li a:hover {
   font-size: 1vw;
 }
 @media screen and (max-width: 500px) {
-  .hero-content .about {
+  .hero .about {
     width: 100%;
-    margin-top: 50%;
+    font-size: 3vw;
   }
 }
 .hero .about h2 {
   color: #e27d60;
   font-size: 2.5vw;
 }
+@media screen and (max-width: 500px) {
+  .hero .about h2 {
+    font-size: 5vw;
+  }
+}
+
 .hero .questions {
   color: #e27d60;
   font-size: 2.4vh;
   margin-top: 2%;
+}
+@media screen and (max-width: 500px) {
+  .hero .questions {
+    font-size: 4vw;
+  }
 }
 
 footer {
@@ -134,9 +146,4 @@ footer {
   text-align: center;
   padding: 1% 0% 0% 0%;
   font-size: 1.2vw;
-}
-@media screen and (max-width: 500px) {
-  footer {
-    font-size: 3vw;
-  }
 }
