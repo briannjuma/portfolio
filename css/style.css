@@ -138,6 +138,12 @@ header .navlinks ul li a:hover {
     font-size: 4vw;
   }
 }
+.hero .questions .skills {
+  padding-top: 5%;
+  display: flex;
+  justify-items: flex-start;
+  align-items: center;
+}
 
 footer {
   position: fixed;
