@@ -191,7 +191,9 @@ header .navlinks ul li a:hover {
   .cards {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+  }
+  .cards img {
+    width: 100%;
   }
 }
 /* styling below applies to footer*/
