@@ -179,6 +179,14 @@ header .navlinks ul li a:hover {
     flex-direction: column;
   }
 }
+.cards {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid grey;
+  margin: 1%;
+  box-shadow: 0 1vw 1vw #e27d60;
+  padding: 2%;
+}
 /* styling below applies to footer*/
 footer {
   position: fixed;
