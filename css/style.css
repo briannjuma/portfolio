@@ -148,15 +148,26 @@ header .navlinks ul li a:hover {
 .projects {
   margin-bottom: 10%;
 }
-
 .projects h2 {
   color: #e27d60;
   font-size: 2.5vw;
   text-align: center;
 }
+
 @media screen and (max-width: 500px) {
   .projects h2 {
     font-size: 5vw;
+  }
+}
+
+.projects .viewCards {
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (max-width: 500px) {
+  .projects .viewCards {
+    display: flex;
+    flex-direction: column;
   }
 }
 /* styling below applies to footer*/
