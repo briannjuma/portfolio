@@ -13,7 +13,7 @@ As a software developer I am indebted to showcase off my skills and previous wor
 ## Setup
 * Make sure to have internet access.
 * Click on the link provided in project description.
-* Live link -  
+* Live link -  https://jumabrian.github.io/portfolio/
 * Enjoy the live site!!!
   
 ## Author
