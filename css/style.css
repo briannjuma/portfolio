@@ -187,6 +187,13 @@ header .navlinks ul li a:hover {
   box-shadow: 0 1vw 1vw #e27d60;
   padding: 2%;
 }
+@media screen and (max-width: 500px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
 /* styling below applies to footer*/
 footer {
   position: fixed;
